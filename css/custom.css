@@ -1,0 +1,23 @@
+.details a, details a:hover {
+    color: #fff!important;
+}
+
+.nav-icon img {
+    max-width: 20px !important;
+}
+
+@media (max-width: 600px) {
+    .details a {
+        font-size: 0.6em;
+        letter-spacing: 0.1px;
+        word-spacing: 0.9px;
+    }
+
+    .details h4 {
+        font-size: 1.1em;
+    }
+
+    .phone-number h1 {
+        margin: 5px 70px 10px;
+    }
+}
