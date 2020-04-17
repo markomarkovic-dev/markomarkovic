@@ -4,7 +4,6 @@ RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 AddDefaultCharset UTF-8
-RewriteRule (.*)\.(woff|ttf|svg|js|ico|gif|jpg|png|css|htc|xml|txt)$ /static/$1.$2
 <IfModule mod_expires.c>
   ExpiresActive On
 
