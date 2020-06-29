@@ -32,10 +32,13 @@ html[lang="sr"] .price-box sup {
     background-color:rgba(144, 26, 28, .2);
     padding: 15px;
     border-radius: 100px;
+    letter-spacing: .1px;
+    transition: all .3s ease;
 }
 
 .phone-number h1:hover a {
     background-color:rgba(144, 26, 28, 1);
+    transition:all .3s ease;
 }
 
 .phone-number h1::after {
@@ -47,6 +50,10 @@ html[lang="sr"] .price-box sup {
         position: fixed;
         top: 0;
         width: 100%;
+    }
+
+    .navbar-toggle {
+        padding: 15px 10px 15px 15px;
     }
 
     html[lang="sr"] .price-box sup {
