@@ -17,7 +17,7 @@ html[lang="sr"] .price-box sup {
 
 .price-box sub {
     position: absolute;
-    bottom: 0px;
+    bottom: 19px;
     font-size: 0.2em;
     letter-spacing: 0.5px;
     font-weight: normal;
