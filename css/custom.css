@@ -45,7 +45,7 @@ html[lang="sr"] .price-box sup {
 
 @media (max-width: 600px) {
     .details a {
-        font-size: 0.6em;
+        font-size: 0.5em;
         letter-spacing: 0.1px;
         word-spacing: 0.9px;
     }
