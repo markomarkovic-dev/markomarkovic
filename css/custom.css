@@ -17,11 +17,25 @@ html[lang="sr"] .price-box sup {
 
 .price-box sub {
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     font-size: 0.2em;
     letter-spacing: 0.5px;
     font-weight: normal;
     margin-left: 5px;
+}
+
+.phone-number h1 {
+    margin: 0
+}
+
+.phone-number h1 a {
+    background-color:rgb(144, 26, 28);
+    padding: 15px;
+    border-radius: 100px;
+}
+
+.phone-number h1::after {
+    display: none;
 }
 
 @media (max-width: 991px) {
@@ -46,15 +60,10 @@ html[lang="sr"] .price-box sup {
 @media (max-width: 600px) {
     .details a {
         font-size: 0.5em;
-        letter-spacing: 0.1px;
         word-spacing: 0.9px;
     }
 
     .details h4 {
         font-size: 1.1em;
-    }
-
-    .phone-number h1 {
-        margin: 5px 70px 10px;
     }
 }
