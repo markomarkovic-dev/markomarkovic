@@ -11,7 +11,7 @@ h1, h1 strong {
 }
 
 html[lang="sr"] .price-box sup {
-    margin-left: 1px;
+    margin-left: 4px;
     top: 23px;
 }
 
@@ -20,6 +20,27 @@ html[lang="sr"] .price-box sup {
     bottom: 20px;
     font-size: 0.2em;
     letter-spacing: 0.5px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    html[lang="sr"] .price-box sup {
+        margin-left: 3px;
+        top: 18px;
+    }
+
+    .price-box sub {
+        bottom: 12px;
+        font-size: 13px;
+        margin-left: 3px;
+    }
 }
 
 @media (max-width: 600px) {
