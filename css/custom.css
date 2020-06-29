@@ -29,9 +29,13 @@ html[lang="sr"] .price-box sup {
 }
 
 .phone-number h1 a {
-    background-color:rgb(144, 26, 28);
+    background-color:rgba(144, 26, 28, .2);
     padding: 15px;
     border-radius: 100px;
+}
+
+.phone-number h1:hover a {
+    background-color:rgba(144, 26, 28, 1);
 }
 
 .phone-number h1::after {
