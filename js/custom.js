@@ -50,7 +50,7 @@
             navSpeed: 500,
             loop: true,
             autoHeight : true,
-            navText: ["<img src='img/assets/slider-left-thin-arrow.png'>", "<img src='img/assets/slider-right-thin-arrow.png'>"]
+            navText: ["<img src='https://markomarkovic.dev/img/assets/slider-left-thin-arrow.png'>", "<img src='https://markomarkovic.dev/img/assets/slider-right-thin-arrow.png'>"]
         });
         if ($('.hero-fullscreen>div').hasClass('hero-slider')) {
             $('.hero-fullscreen').css({'padding': '0'});
@@ -73,7 +73,7 @@
             nav: true,
             loop: loopSlides,
             autoHeight : true,
-            navText: ["<img src='img/assets/slider-left-thin-arrow.png'>", "<img src='img/assets/slider-right-thin-arrow.png'>"],
+            navText: ["<img src='https://markomarkovic.dev/img/assets/slider-left-thin-arrow.png'>", "<img src='https://markomarkovic.dev/img/assets/slider-right-thin-arrow.png'>"],
             navRewind: true,
             slideBy : 'page'
         });
@@ -160,7 +160,7 @@
             dots: false,
             loop: true,
             nav: true,
-            navText: ["<img src='img/assets/slider-left-thin-arrow.png'>", "<img src='img/assets/slider-right-thin-arrow.png'>"]
+            navText: ["<img src='https://markomarkovic.dev/img/assets/slider-left-thin-arrow.png'>", "<img src='https://markomarkovic.dev/img/assets/slider-right-thin-arrow.png'>"]
         });
     }
 
